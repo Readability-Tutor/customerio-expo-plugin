@@ -1,9 +1,13 @@
 import type { ExpoConfig } from '@expo/config-types';
 
-import type { CustomerIOPluginOptionsIOS, CustomerIOPluginPushNotificationOptions } from '../types/cio-types';
-import { withAppDelegateModifications } from './withAppDelegateModifications';
-import { withCioNotificationsXcodeProject } from './withNotificationsXcodeProject';
+import type {
+  CustomerIOPluginOptionsIOS,
+  CustomerIOPluginPushNotificationOptions,
+} from '../types/cio-types';
+// import { withAppDelegateModifications } from './withAppDelegateModifications';
+import { withAppDelegateSwiftModifications } from './withAppDelegateSwiftModifications';
 import { withCioXcodeProject } from './withXcodeProject';
+import { withCioNotificationsXcodeProject } from './withNotificationsXcodeProject';
 import { withGoogleServicesJsonFile } from './withGoogleServicesJsonFile';
 
 export function withCIOIos(
@@ -12,7 +16,8 @@ export function withCIOIos(
 ) {
   const cioProps = mergeDeprecatedPropertiesAndLogWarnings(props);
   if (cioProps.pushNotification) {
-    config = withAppDelegateModifications(config, cioProps);
+    // config = withAppDelegateModifications(config, cioProps);
+    config = withAppDelegateSwiftModifications(config, cioProps);
     config = withCioNotificationsXcodeProject(config, cioProps);
     config = withCioXcodeProject(config, cioProps);
     config = withGoogleServicesJsonFile(config, cioProps);

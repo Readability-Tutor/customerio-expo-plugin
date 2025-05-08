@@ -9,7 +9,7 @@ yarn-error.log
 # OS X
 .DS_Store
 android
-ios
+#ios // remove #
 
 # Emacs
 *~
