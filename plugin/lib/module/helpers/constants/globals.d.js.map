@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["globals.d.ts"],"sourcesContent":["declare module 'xcode' {\n  interface xcode {\n    project(projPath: string): any;\n  }\n\n  const xcode: xcode;\n  export default xcode;\n}\n"],"mappings":"","ignoreList":[]}

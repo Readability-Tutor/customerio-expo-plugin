@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["withNotificationsXcodeProject.d.ts"],"sourcesContent":["import { ConfigPlugin } from '@expo/config-plugins';\nimport type { CustomerIOPluginOptionsIOS } from '../types/cio-types';\nexport declare const withCioNotificationsXcodeProject: ConfigPlugin<CustomerIOPluginOptionsIOS>;\n"],"mappings":"","ignoreList":[]}

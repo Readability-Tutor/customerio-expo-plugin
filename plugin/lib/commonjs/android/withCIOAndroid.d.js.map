@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["withCIOAndroid.d.ts"],"sourcesContent":["import type { ExpoConfig } from '@expo/config-types';\nimport type { CustomerIOPluginOptionsAndroid } from '../types/cio-types';\nexport declare function withCIOAndroid(config: ExpoConfig, props: CustomerIOPluginOptionsAndroid): ExpoConfig;\n"],"mappings":"","ignoreList":[]}

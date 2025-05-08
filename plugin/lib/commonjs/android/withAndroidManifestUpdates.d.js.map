@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["withAndroidManifestUpdates.d.ts"],"sourcesContent":["import { ConfigPlugin } from '@expo/config-plugins';\nimport type { CustomerIOPluginOptionsAndroid } from '../types/cio-types';\nexport declare const withAndroidManifestUpdates: ConfigPlugin<CustomerIOPluginOptionsAndroid>;\n"],"mappings":"","ignoreList":[]}

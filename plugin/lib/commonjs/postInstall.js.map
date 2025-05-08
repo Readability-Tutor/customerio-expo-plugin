@@ -1,0 +1,1 @@
+{"version":3,"names":["ph","require","runPostInstall","error"],"sources":["postInstall.js"],"sourcesContent":["try {\n  const ph = require('./postInstallHelper');\n\n  ph.runPostInstall();\n} catch (error) {}\n"],"mappings":";;AAAA,IAAI;EACF,MAAMA,EAAE,GAAGC,OAAO,CAAC,qBAAqB,CAAC;EAEzCD,EAAE,CAACE,cAAc,CAAC,CAAC;AACrB,CAAC,CAAC,OAAOC,KAAK,EAAE,CAAC","ignoreList":[]}

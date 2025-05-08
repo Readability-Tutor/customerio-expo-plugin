@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["pluginUtils.d.ts"],"sourcesContent":["/**\n * Reads the version of the plugin from its `package.json` and returns it as a string.\n */\nexport declare const getPluginVersion: () => string;\n"],"mappings":"","ignoreList":[]}

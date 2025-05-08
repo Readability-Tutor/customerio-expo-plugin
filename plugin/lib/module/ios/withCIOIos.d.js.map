@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["withCIOIos.d.ts"],"sourcesContent":["import type { ExpoConfig } from '@expo/config-types';\nimport type { CustomerIOPluginOptionsIOS } from '../types/cio-types';\nexport declare function withCIOIos(config: ExpoConfig, props: CustomerIOPluginOptionsIOS): ExpoConfig;\n"],"mappings":"","ignoreList":[]}

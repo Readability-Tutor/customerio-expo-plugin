@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["withGistMavenRepository.d.ts"],"sourcesContent":["import { ConfigPlugin } from '@expo/config-plugins';\nimport type { CustomerIOPluginOptionsAndroid } from './../types/cio-types';\nexport declare const withGistMavenRepository: ConfigPlugin<CustomerIOPluginOptionsAndroid>;\n"],"mappings":"","ignoreList":[]}

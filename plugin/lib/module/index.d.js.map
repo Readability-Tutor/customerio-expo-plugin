@@ -1,0 +1,1 @@
+{"version":3,"names":[],"sources":["index.d.ts"],"sourcesContent":["import type { ExpoConfig } from '@expo/config-types';\nimport type { CustomerIOPluginOptions } from './types/cio-types';\ndeclare function withCustomerIOPlugin(config: ExpoConfig, props: CustomerIOPluginOptions): ExpoConfig;\nexport default withCustomerIOPlugin;\n"],"mappings":"","ignoreList":[]}
